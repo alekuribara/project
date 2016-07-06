@@ -1,0 +1,26 @@
+
+
+/* custom css */
+table.table tr th { border-bottom: solid 3px #ddd }
+table.table tr td { border-bottom: solid 1px #eee }
+table.table tr td.no-result { padding: 100px 0 }
+table.table tr td a.btn-custom {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #ffffff;
+  background-color: #95a5a6;
+  border-color: #95a5a6;
+}
